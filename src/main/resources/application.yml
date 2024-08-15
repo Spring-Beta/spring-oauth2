@@ -1,0 +1,40 @@
+#spring:
+#  application:
+#    name: spring-oauth2
+#
+##Github Login
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#            client-id:
+#            client-secret:
+#
+#          google:
+#            client-id:
+#            client-secret:
+#
+#          facebook:
+#            client-id:
+#            client-secret:
+#
+#          linkedin:
+#            client-id:
+#            client-secret:
+#            client-authentication-method: post
+#            authorization-grant-type: authorization_code
+#            redirect-uri: "http://localhost:9595/login/oauth2/code/linkedin"
+#
+#      provider:
+#        linkedin:
+#          authorization-uri: https://www.linkedin.com/oauth/v2/authorization
+#          token-uri: https://www.linkedin.com/oauth/v2/accessToken
+#          user-info-uri: https://api.linkedin.com/v1/people/~?format=json
+#          user-name-attribute: id
+#
+#
+##Google Login
+#
+#server:
+#  port: 9595
